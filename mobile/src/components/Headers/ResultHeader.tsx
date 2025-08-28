@@ -38,7 +38,7 @@ const ResultHeader = () => {
                 fontSize: 20,
               }}
             >
-              Crops Recommendation
+              Classification Results
             </Text>
             <Text
               style={{
@@ -47,7 +47,7 @@ const ResultHeader = () => {
                 color: COLORS.black,
               }}
             >
-              See what's best to grow based on your conditions.
+              Here are some results, based on AI model.
             </Text>
           </View>
           <TouchableOpacity
