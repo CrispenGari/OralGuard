@@ -3,7 +3,7 @@
 **OralGuard** is a mobile-friendly deep learning application designed to assist in the early detection of **oral lesions (benign vs malignant)** using computer vision.  
 Built on **MobileNetV3** with **PyTorch transfer learning**, the model is optimized for **real-time predictions** on mobile devices and integrates with a **Flask REST API** for deployment.
 
-<p align="center"><img src="/screenshots/adaptive-icon.png" alt="logo" width="200"/></p>
+<p align="center"><img src="/screenshots/icon.png" alt="logo" width="200"/></p>
 
 > This repository contains two main sub directory which are:
 
@@ -34,6 +34,7 @@ Built on **MobileNetV3** with **PyTorch transfer learning**, the model is optimi
 - REST API built with **Flask** for real-time predictions
 - Trained on the [Oral Lesions: Malignancy Detection Dataset](https://www.kaggle.com/datasets/mohamedgobara/oral-lesions-malignancy-detection-dataset)
 - Model exported as **static PyTorch file** (`.pt`) for cross-platform usage
+- Local Authentication
 
 ---
 
@@ -91,6 +92,7 @@ The following screenshots shows the basic UI of the mobile application.
   <img src="/screenshots/7.jpeg" alt="UI" width="200"/>
   <img src="/screenshots/8.jpeg" alt="UI" width="200"/>
   <img src="/screenshots/9.jpeg" alt="UI" width="200"/>
+  <img src="/screenshots/10.jpeg" alt="UI" width="200"/>
 </p>
 
 ### 🖥️ Installation & Setup
